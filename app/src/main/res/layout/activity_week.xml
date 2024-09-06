@@ -7,4 +7,549 @@
     android:layout_height="match_parent"
     tools:context=".WeekActivity">
 
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.225" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.38" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.535" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.69" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.845" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.46" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.82" />
+
+    <Button
+        android:id="@+id/weekSubject1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button1"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button2"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button3"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button4"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button5"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button6"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+    <Button
+        android:id="@+id/weekSubject7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button7"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button8"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button9"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button10"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button11"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+
+    <Button
+        android:id="@+id/weekSubject13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button7"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button8"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button9"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button10"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button11"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button6"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="@id/guideline4"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+
+    <Button
+        android:id="@+id/weekSubject19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button7"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button8"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button9"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button10"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="@id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+    <Button
+        android:id="@+id/weekSubject25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button7"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button8"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button9"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button10"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="@id/guideline6"
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+    <Button
+        android:id="@+id/weekSubject31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button7"
+        app:layout_constraintBottom_toBottomOf="@id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/weekSubject32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button8"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline9" />
+
+    <Button
+        android:id="@+id/weekSubject33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button9"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline10" />
+
+    <Button
+        android:id="@+id/weekSubject34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button10"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline11" />
+
+    <Button
+        android:id="@+id/weekSubject35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline12" />
+
+    <Button
+        android:id="@+id/weekSubject36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/square_button"
+        android:backgroundTint="@null"
+        android:text="Button12"
+        app:layout_constraintBottom_toBottomOf="@id/guideline14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/guideline13" />
+
+    <View
+        android:id="@+id/weekLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintGuide_percent="0.07"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
